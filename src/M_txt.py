@@ -16,6 +16,8 @@ def Ex_td():
     else:
         with open(archieve, "w") as file:
             r = r + "arquivo criado com sucesso" 
+    
+    print(r,"\n")
 
 def read():
     with open(archieve, "r") as file:

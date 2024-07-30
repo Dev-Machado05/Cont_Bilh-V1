@@ -20,7 +20,7 @@ def conf(Val, N_Ac):
     elif N_Ac == "3":
         acao = "subtrair"
     while True:
-        print(f"\nVocê deseja {acao} o valor de {Val}R$?")
+        print(f"\nVocê deseja {acao} o valor de {Val}R$?\n")
 
         vf = input("\n::>")
         if vf.upper() == "SIM" or vf.upper() == "S":
